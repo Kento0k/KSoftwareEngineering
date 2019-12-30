@@ -2,7 +2,7 @@
 
 Build and Run
 
-        git clone https://github.com/Kento0k/SoftEng.git
+        git clone https://github.com/Kento0k/KSoftwareEngineering.git
         gradle bootRun
         curl http://localhost:8080/?year=1998
         /-or-/
