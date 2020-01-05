@@ -3,10 +3,8 @@
 Build and Run
 
         git clone https://github.com/Kento0k/KSoftwareEngineering.git
-        gradle bootRun
-        curl http://localhost:8080/?year=1998
-        /-or-/
-        curl http://localhost:8080/?currentDate=10042005
+        gradle buildDocker
+        docker run -p 8080:8080 org.example/SoftEng
 Examples
 
         request: curl http://localhost:8080/?year=1998
